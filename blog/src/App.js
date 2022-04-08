@@ -5,10 +5,9 @@ import Post from "./components/Post";
 function App() {
   return (
     <>
-
     <Header></Header>
     <Article></Article>
-    <Post></Post>
+    
     </>
   );
 }
