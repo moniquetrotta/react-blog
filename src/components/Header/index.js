@@ -1,6 +1,6 @@
 import logosvg from '../../svg/logo.svg';
 
-function Header (){
+const Header = () => {
 
   const descLogo = 'Essa é a logo do blog';
 
