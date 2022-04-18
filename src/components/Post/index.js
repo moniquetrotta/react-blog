@@ -10,8 +10,8 @@ const Post = (props) => {
         <div className="flex pt-2">
           <div className="img-profile"></div>
           <div className="description-profile ml-2">
-            <h6 className="color-blue">Lucas Ossola</h6>
-            <p>Aug 2, 2022 - 8 min read</p>
+            <h6 className="color-blue">{props.author}</h6>
+            <p>{props.date}</p>
           </div>
         </div>
     </div>
