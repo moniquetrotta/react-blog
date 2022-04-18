@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "HELP!",
+      "title": "A solution to soften people's fear",
+      "resume": "This case study is part of my third project done for the Google course on UX Design Certificate, in which it was a free case study, but focused on Social Goods",
+      "description": "Texto inteiro do post",
+      "author": "Lucas Ossola",
+      "date": "Aug 2, 2022"
+    },
+    {
+      "id": 2,
+      "category": "PETIT COFFEE",
+      "title": "Um projeto feito ao cursar o Google UXD",
+      "resume": "Um projeto feito ao cursar o Google UXD will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Texto inteiro do post",
+      "author": "Lucas Ossola",
+      "date": "Aug 4, 2022"
+    },
+    {
+      "id": 3,
+      "category": "FLOWERS",
+      "title": "Comprar flores ficou mais fácil",
+      "resume": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Texto inteiro",
+      "author": "Lucas Ossola",
+      "date": "Aug 6, 2022"
+    }
+  ]
+}

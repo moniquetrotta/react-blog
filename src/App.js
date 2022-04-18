@@ -1,12 +1,16 @@
 import Header from "./components/Header"; 
-import Article from "./components/Article"; 
-import Post from "./components/Post"; 
+//import Article from "./components/Article";
+import Main from './pages/Main';
+
+
+import {useState} from 'react';
 
 function App() {
+
   return (
     <>
     <Header></Header>
-    <Article></Article>
+    <Main></Main>
     
     </>
   );
