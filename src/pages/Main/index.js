@@ -1,26 +1,23 @@
 import api from '../../services/api';import Post from '../../components/Post';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 
 const Main = () => {
   const [post, setPost] = useState([]);
 
-  async function handleAxios() {
-    try {
-    const response = await api.get('/posts');
-    setPost(response.data);
-    }
-    catch (error) {
-      console.log(error);
-    }
-  }
+  useEffect (() => {
+    api.get('/posts')
+    .then((response) =>{
+      setPost(response.data);
+    })
+  }, [])
+  
 
 
     return (
       <>
       <section className="container">
-      <h2>Main.js</h2>
-      <button onClick={handleAxios}>fazer requisição</button>
+      <h2>Articles</h2>
 
       <div className='mt-5 container-posts'>
         {
