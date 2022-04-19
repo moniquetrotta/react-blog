@@ -17,7 +17,7 @@ const Main = () => {
     return (
       <>
       <section className="container">
-      <h2>Articles</h2>
+      <h2>Página Principal</h2>
 
       <div className='mt-5 container-posts'>
         {
